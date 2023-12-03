@@ -1,0 +1,125 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&family=Poppins:wght@100;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --cor-primaria: #007aff;
+    --cor-secundaria: #ffffff;
+    --cor-terciaria: #d63384;
+    --cor-quaternaria: #dc3545;
+    --preto: #000000;
+    --cor-rosinha: #ee626b;
+
+    font-family: 'Poppins', sans-serif;
+}
+
+.cabecalho {
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 40px;
+    right: 300px;
+    width: 100%;
+
+}
+
+.cabecalho-menu ul {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    color: var(--cor-secundaria);
+    font-size: 16px;
+}
+
+.cabecalho-menu ul li a {
+    text-decoration: none;
+}
+
+.sign {
+    background-color: var(--cor-rosinha);
+    border: var(--cor-rosinha) solid 5px;
+    width: 110px;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.cabecalho-logo img {
+    position: relative;
+    left: 650px;
+}
+
+.principal {
+    background-image: url(../images/banner-bg.jpg);
+    background-repeat: no-repeat;
+    padding: 225px 0px;
+    background-position: center bottom;
+    border-radius: 0px 0px 150px 150px;
+    background-size: cover;
+    /*/ cover quer dizer que ele deve ocupar o container inteiro /*/
+}
+
+.principal-conteudo {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 250px;
+    gap: 250px;
+}
+
+.principal-texto {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: var(--cor-secundaria);
+    margin-left: 160px;
+    margin-top: 80px;
+}
+
+.principal-texto h2 {
+    font-size: 45px;
+}
+
+.principal-texto p {
+    display: flex;
+    padding-top: 45px;
+    gap: 15px;
+    line-height: 30px;
+}
+
+.principal figure img {
+    border-radius: 30px;
+}
+
+.desconto {
+    position: absolute;
+    bottom: 150px;
+    right: 650px;
+    background-color: var(--cor-rosinha);
+    border-radius: 50%;
+    font-size: 30px;
+    color: var(--cor-secundaria);
+    font-weight: 700;
+    padding: 15px;
+    text-align: center;
+    line-height: 65px;
+
+}
+
+.preco {
+    position: absolute;
+    bottom: 620px;
+    right: 310px;
+    font-size: 25px;
+    background-color: var(--cor-primaria);
+    border-radius: 25px;
+    color: var(--cor-secundaria);
+    font-weight: 700;
+    padding: 5px 15px 5px 15px;
+    text-align: center;
+
+}
