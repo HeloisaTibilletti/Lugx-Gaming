@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&family=Poppins:wght@100;400;700&display=swap');
 
 * {
@@ -123,3 +122,98 @@
     text-align: center;
 
 }
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+
+    position: relative;
+    bottom: 100px;
+  }
+
+.card {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 10px 25px rgb(196, 196, 196);
+    background-color: var(--cor-secundaria);
+    padding: 40px 90px 40px 90px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    gap: 20px;
+    align-items: center;
+}
+
+.card img {
+    width: 90px;
+    max-width: 400px;
+    padding: 1rem;
+    border: var(--cor-primaria) solid 2px;
+    background-color: var(--cor-primaria);
+    border-radius: 50%;
+}
+
+.card img:hover {
+    background-color: var(--cor-terciaria);
+    border: var(--cor-terceira) solid 2px;
+
+}
+
+.section-two {
+    padding: 30px;
+}
+
+.trending-games, .trending {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    left: 280px;
+    padding: 5px;
+}
+
+.trending-games {
+    font-size: 40px;
+}
+
+.trending {
+    color: var(--cor-terciaria)
+}
+
+.section-two a {
+    text-decoration: none;
+    background-color: var(--cor-rosinha);
+    border: var(--cor-rosinha) solid 2px;
+    padding: 13px 30px 13px 30px;
+    border-radius: 50px;
+    color: var(--cor-secundaria);
+    position: relative;
+    bottom: 50px;
+    left: 1420px;
+}
+
+.container-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    padding: 30px;
+}
+
+.card-two {
+    background-color: #dddddd70;
+    padding: 0 2px 20px 2px;
+    border-radius: 20px;
+}
+
+.card-two h3, p{
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+.container-two img {
+    border-radius: 25px;
+}
+
