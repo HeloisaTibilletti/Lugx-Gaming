@@ -170,8 +170,9 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin-left: 250px;
+    max-width: 100%;
     padding: 5px;
+    padding-left: 250px;
 }
 
 .trending-games {
@@ -191,11 +192,12 @@
     color: var(--cor-secundaria);
     position: relative;
     bottom: 50px;
-    left: 1420px;
+    left: 1350px;
 }
 
 .container-two {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 25px;
@@ -262,7 +264,7 @@
     color: var(--cor-secundaria);
     position: relative;
     bottom: 400px;
-    left: 1300px;
+    left: 1200px;
 }
 
 .card-three {
@@ -282,3 +284,61 @@
     bottom: -30px;
     font-weight: 700;
 }
+
+.section-four {
+    padding: 100px;
+}
+
+.container-four{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+
+}
+
+
+.card-four {
+    background-color: #dddddd70;
+    border-radius: 15px;
+    padding: 100px 80px 150px 80px;  
+}
+
+.card-nome-4{
+    color: var(--cor-rosinha);
+    padding-bottom: 5px;
+}
+
+.card-titulo-4 {
+    font-size: 30px;
+    padding-bottom: 35px;
+    max-width: 270px;
+}
+
+.card-descricao-4 {
+    max-width: 270px;
+    color: gray;
+    padding-bottom: 40px;
+}
+
+
+.rodape {
+    background-image: url(../images/page-heading-bg.jpg);
+    padding: 50px;
+    border-radius: 150px 150px 0px 0px;
+    text-align: center;
+    color: var(--cor-secundaria);
+    font-weight: 400;
+}
+
+.botao-four {
+    text-decoration: none;
+    background-color: var(--cor-rosinha);
+    padding: 8px 20px 8px 20px;
+    border-radius: 25px;
+    border: var(--cor-rosinha) solid 2px;
+    color: var(--cor-secundaria);
+}
+
+
+
+
