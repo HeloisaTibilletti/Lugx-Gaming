@@ -1,0 +1,39 @@
+@media (max-width: 576px) {
+    * {
+        font-size: 14px;
+    }
+
+    input,
+    select,
+    textarea {
+        width:300px; 
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px; 
+    }
+
+    input[type="submit"],
+    input[type="reset"] {
+        width: auto;
+    }
+
+    .form-botoes {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .form-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px; /* Adicionado espaçamento inferior entre os itens do formulário */
+    }
+}

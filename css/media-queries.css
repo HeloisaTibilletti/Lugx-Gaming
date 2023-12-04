@@ -1,6 +1,6 @@
 @media (max-width: 576px) {
     * {
-      font-size: 14px;
+        font-size: 14px;
     }
 
     .cabecalho {
@@ -8,22 +8,37 @@
     }
 
     .principal {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
+        width: 100%;
     }
 
     nav {
-       position: relative;
-       top: 80px;
-       left: 220px;
+        position: relative;
+        top: 40px;
+        left: 340px;
+    }
+
+    .cabecalho-menu ul {
+        display: flex;
+        gap: 15px;
     }
 
 
-    .principal figure img {
-        display: none;
+    .principal-conteudo {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: auto;
+        position: relative;
+        right: 75px;
+        gap: 15px;
     }
 
+    .principal-conteudo figure img {
+        max-width: 350px;
+        position: relative;
+        right: 40px;
+    }
+    
     span {
         display: none;
     }
@@ -32,28 +47,31 @@
         width: 100%;
     }
 
-    .bt-view, .button-view {
+    .bt-view,
+    .button-view {
         display: none;
     }
 
-    .titulo-section{
+    .titulo-section {
         width: 100%;
         align-items: center;
         padding-right: 50px;
     }
 
-    .trending, .trending-games{
+    .trending,
+    .trending-games {
         padding-left: 50px;
     }
 
-    .top, .most {
+    .top,
+    .most {
         position: relative;
         left: 0;
     }
 
     .cabecalho-logo img {
         position: relative;
-        left: 350px;
+        left: 410px;
     }
 
     .container-four {
@@ -64,8 +82,13 @@
         max-width: 400px;
         padding: 10px;
     }
-    
-    
+
+    .principal-texto {
+        position: relative;
+        right: 150px;
+    }
+
+
 
 
 }

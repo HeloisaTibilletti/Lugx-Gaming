@@ -25,6 +25,10 @@
     right: 300px;
     width: 100%;
     flex-wrap: wrap;
+}
+
+.cabecalho-menu {
+    background-color: transparent; /* Remova a cor de fundo atual, se houver */
 
 }
 
@@ -34,6 +38,7 @@
     gap: 50px;
     color: var(--cor-secundaria);
     font-size: 16px;
+    flex-wrap: wrap;
 }
 
 .cabecalho-menu ul li a {
@@ -61,7 +66,12 @@
     border-radius: 0px 0px 150px 150px;
     background-size: cover;
     /*/ cover quer dizer que ele deve ocupar o container inteiro /*/
+    width: auto;
     
+}
+
+nav {
+    background-color: transparent;
 }
 
 .principal-conteudo {
@@ -71,6 +81,7 @@
     justify-content: center;
     margin-left: 230px;
     gap: 250px;
+        flex-wrap: wrap;
 }
 
 .principal-texto {
@@ -94,7 +105,7 @@
 }
 
 .principal figure img {
-    border-radius: 30px;
+    border-radius: 30px
 }
 
 .desconto {
