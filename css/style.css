@@ -96,24 +96,23 @@
 }
 
 .desconto {
-    position: absolute;
-    bottom: 150px;
-    right: 650px;
+    position: relative;
+    bottom: 50px;
+    right: 80px;
     background-color: var(--cor-rosinha);
     border-radius: 50%;
     font-size: 30px;
     color: var(--cor-secundaria);
     font-weight: 700;
-    padding: 15px;
+    padding: 20px;
     text-align: center;
-    line-height: 65px;
 
 }
 
 .preco {
-    position: absolute;
-    bottom: 620px;
-    right: 310px;
+    position: relative;
+    bottom: 500px;
+    right: -180px;
     font-size: 25px;
     background-color: var(--cor-primaria);
     border-radius: 25px;
