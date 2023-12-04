@@ -38,6 +38,7 @@ const criarCardTwo = () => {
             <p class="card-descricao"> ${elemento.titulo}</p>
             <h3 class="card-descricao"> ${elemento.descricao}</h3>
             
+            
         </div>   
         `;
         containerTwo.innerHTML += cardTwo;
