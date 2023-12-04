@@ -10,9 +10,10 @@ let listaForm = [
     {
         idIcone: 2,
         nome:"NEWSLETTER",
-        titulo: "Get Up To $100 Off Just Buy Subscribe Newsletter!",
-        descricao: "Lorem ipsum dolor consectetur adipiscing, sed do eiusmod tempor",
-        botao: "SUBSCRIBE NOW"
+        titulo: "Sign Up and Win 1000$ in Games",
+        descricao: "Lorem ipsum dolor consectetur adipiscing, sed do eiusmod tempor incididunt.",
+        botao: "SUBSCRIBE NOW",
+        link: "subscribe.html"
     },
 
 ];
@@ -26,7 +27,7 @@ const criarCardFour = () => {
             <h3 class="card-nome-4"> ${elemento.nome}</h2>
             <h2 class="card-titulo-4"> ${elemento.titulo}</h2>
             <h3 class="card-descricao-4"> ${elemento.descricao}</h3>
-            <a href="" class="botao-four"> ${elemento.botao}</a>
+            <a href="${elemento.link}" class="botao-four"> ${elemento.botao}</a>
         </div>   
         `;
 

@@ -24,6 +24,7 @@
     top: 40px;
     right: 300px;
     width: 100%;
+    flex-wrap: wrap;
 
 }
 
@@ -60,6 +61,7 @@
     border-radius: 0px 0px 150px 150px;
     background-size: cover;
     /*/ cover quer dizer que ele deve ocupar o container inteiro /*/
+    
 }
 
 .principal-conteudo {
@@ -183,7 +185,7 @@
     color: var(--cor-terciaria)
 }
 
-.section-two a {
+.button-view {
     text-decoration: none;
     background-color: var(--cor-rosinha);
     border: var(--cor-rosinha) solid 2px;
@@ -287,12 +289,14 @@
 
 .section-four {
     padding: 100px;
+    
 }
 
 .container-four{
     display: flex;
     justify-content: center;
     gap: 100px;
+    flex-wrap: wrap;
 
 }
 

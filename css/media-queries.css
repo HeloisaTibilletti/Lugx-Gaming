@@ -1,0 +1,71 @@
+@media (max-width: 576px) {
+    * {
+      font-size: 14px;
+    }
+
+    .cabecalho {
+        width: 100%;
+    }
+
+    .principal {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    nav {
+       position: relative;
+       top: 80px;
+       left: 220px;
+    }
+
+
+    .principal figure img {
+        display: none;
+    }
+
+    span {
+        display: none;
+    }
+
+    .section-two {
+        width: 100%;
+    }
+
+    .bt-view, .button-view {
+        display: none;
+    }
+
+    .titulo-section{
+        width: 100%;
+        align-items: center;
+        padding-right: 50px;
+    }
+
+    .trending, .trending-games{
+        padding-left: 50px;
+    }
+
+    .top, .most {
+        position: relative;
+        left: 0;
+    }
+
+    .cabecalho-logo img {
+        position: relative;
+        left: 350px;
+    }
+
+    .container-four {
+        padding: 15px;
+    }
+
+    .card-four {
+        max-width: 400px;
+        padding: 10px;
+    }
+    
+    
+
+
+}

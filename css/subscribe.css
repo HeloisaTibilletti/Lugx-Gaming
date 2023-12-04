@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&family=Poppins:wght@100;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --cor-primaria: #007aff;
+    --cor-secundaria: #ffffff;
+    --cor-terciaria: #d63384;
+    --cor-quaternaria: #dc3545;
+    --preto: #000000;
+    --cor-rosinha: #ee626b;
+
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+nav {
+    margin: 50px;
+}
+
+
+body {
+    background-image: url("../images/banner-bg.jpg");
+    background-size: cover;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.form-item {
+    padding: 25px;
+    color: var(--cor-secundaria);
+    margin-bottom: 20px; 
+    width: 550px;
+}
+
+
+
+input[type="submit"],input[type="reset"]  {
+    background-color: var(--cor-rosinha);
+    padding: 10px 20px 10px 20px;
+    border: var(--cor-rosinha) solid 2px;
+    border-radius: 15px;
+    color: var(--cor-secundaria);   
+    width: 230px;
+}
+
+.form-botoes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    display: flex;
+    text-align: center;
+}
+
+  
+  label {
+    display: block;
+    margin-bottom: 5px; 
+  }
+  
+  input,
+  select,
+  textarea {
+    display: block;
+    width: 100%; /* Isso faz com que os elementos ocupem a largura total do contêiner pai */
+    padding: 8px; 
+    box-sizing: border-box; 
+    border-radius: 30px;
+    border: var(--cor-secundaria) 2px solid;
+  }
+
+  textarea {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    height: 200px; 
+    resize: none; /* Isso impede que o usuário redimensione o textarea */
+  }
+
+  main h2 {
+    color: var(--cor-secundaria);
+    display: flex;
+    justify-content: center;;
+  }
+
+  .titulo {
+    color: var(--cor-secundaria);
+    display: flex;
+    justify-content: center;
+  }
+
+  span {
+    color: var(--cor-terciaria);
+  }

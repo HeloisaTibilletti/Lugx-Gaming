@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./css/subscribe.css" />
+    <title>Subscribe</title>
+</head>
+
+<body>
+    <header>
+        <nav class="menu">
+            <a href="index.html">
+                <img src="./images/logo.png" class="menu-logo" alt="Logo Pet Adoção" />
+            </a>
+
+        </nav>
+    </header>
+    <div>
+        <h2 class="titulo">SIGN UP TO WIN  <span>1000$</span>IN GAMES</h2>
+    </div>
+    <main>
+
+        <form action="https://formsubmit.co/heloisa.tibilletti@gmail.com" method="post">
+            <div class="form-item">
+                <label for="nome">Nome: </label>
+                <input type="text" name="nome" id="nome" placeholder="Digite seu nome completo" required />
+            </div>
+            <div class="form-item">
+                <label for="telefone">Telefone: </label>
+                <input type="number" name="telefone" id="telefone" placeholder="Digite o seu telefone" required />
+            </div>
+            <div class="form-item">
+                <label for="email">E-mail: </label>
+                <input type="email" name="email" id="email" placeholder="Digite seu email" />
+            </div>
+
+            <div class="form-item">
+                <label for="residencia"> Informe sua plataforma favorita: </label>
+                <select name="residencia" id="residencia">
+                    <option selected>Selecione uma opção</option>
+                    <option value="console">Console</option>
+                    <option value="portatil">Portátil</option>
+                    <option value="mobile">Celular/Mobile</option>
+                    <option value="computador">Computador & Notebook</option>
+                </select>
+            </div>
+
+            <div class="form-item">
+                <label for="intencao">Por que você deve ganhar?</label>
+                <textarea name="intencao" id="intencao"></textarea>
+            </div>
+
+            <div class="form-botoes">
+                <input type="reset" value="Limpar" />
+                <input type="submit" value="Enviar" />
+            </div>
+        </form>
+    </main>
+
+    <script src="./js/adotar.js"></script>
+</body>
+
+</html>
