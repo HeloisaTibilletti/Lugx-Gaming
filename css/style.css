@@ -354,6 +354,69 @@ nav {
     color: var(--cor-secundaria);
 }
 
+/* Adicione essas regras de estilo no seu arquivo de estilo CSS */
 
+.container-games {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .card-game {
+
+    border-radius: 10px;
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
+    background-color: #dddddd70;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card-game:hover {
+    transform: scale(1.05);
+  }
+  
+  .card-game img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .card-game .info {
+    padding: 10px;
+  }
+  
+  .card-game h3 {
+    margin-bottom: 8px;
+    font-size: 16px;
+  }
+  
+  .card-game p {
+    font-size: 14px;
+    color: #555;
+  }
+
+  .card-img {
+    border-radius: 15px;;
+  }
+
+  .cards-api {
+    padding: 150px;
+  }
+
+  .cards-api h2 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+    font-size: 30px;
+  }
+
+
+  
 
 
