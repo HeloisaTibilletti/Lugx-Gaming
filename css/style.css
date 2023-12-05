@@ -222,6 +222,7 @@ nav {
     background-color: #dddddd70;
     padding: 0 2px 20px 2px;
     border-radius: 20px;
+    transition: transform 0.3s ease-in-out;
 }
 
 .card-two h3, p{
@@ -285,6 +286,7 @@ nav {
     padding-bottom: 20px;
     border-radius: 20px;
     text-align: center;
+    transition: transform 0.3s ease-in-out;
 }
 
 .bt-explore {
@@ -414,6 +416,14 @@ nav {
     justify-content: center;
     padding-bottom: 50px;
     font-size: 30px;
+  }
+
+  .card-two:hover {
+    transform: scale(1.05);
+  }
+
+  .card-three:hover {
+    transform: scale(1.05);
   }
 
 
