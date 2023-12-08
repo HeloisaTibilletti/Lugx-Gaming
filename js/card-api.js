@@ -43,12 +43,18 @@ window.addEventListener("load", () => {
 });
 
 const deletePost = (id) => {
-  const cardElement = document.getElementById(`game-${id}`);
-  if (cardElement) {
-    cardElement.remove();
-    console.log(`Card ${id} excluído com sucesso.`);
+  const confirmDelete = window.confirm("Tem certeza que deseja excluir este jogo?");
+
+  if (confirmDelete) {
+    const cardElement = document.getElementById(`game-${id}`);
+    if (cardElement) {
+      cardElement.remove();
+      console.log(`Card ${id} excluído com sucesso.`);
+    } else {
+      console.log(`Card ${id} não encontrado.`);
+    }
   } else {
-    console.log(`Card ${id} não encontrado.`);
+    console.log(`Exclusão cancelada.`);
   }
 };
 
@@ -59,9 +65,9 @@ document.addEventListener("click", (event) => {
     const gameId = event.target.dataset.id;
 
     if (gameId) {
-      // Chamar a função de exclusão com a ID do jogo
       deletePost(gameId);
     }
   }
 });
+
 
