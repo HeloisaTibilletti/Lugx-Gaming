@@ -1,6 +1,14 @@
-﻿# Lugx-Gaming
+ Lugx-Gaming
+
+##
 
 Alunas: Heloisa e Vitoria.
-Projeto para a disciplina de Desenvolvimento Web.
+<br>
+Projeto para a disciplina de Desenvolvimento Web onde utilizamos uma API IGDB onde jogos são mostrados em cards.
+<br>
+
+HTML, CSS e Javescript.
+
+
 
 Template do site templatemo.
